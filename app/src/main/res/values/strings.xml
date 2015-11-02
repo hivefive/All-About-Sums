@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">All About Sums</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="playbuttonstring">Play</string>
+    <string name="scorebuttonstring">Score</string>
+    <string name="helpbuttonstring">Help</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="gameheadingstring">Calculate the sum!</string>
+    <string name="additionsign">+</string>
+    <string name="equalsign">=</string>
+    <string name="title_activity_score">ScoreActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="helpheadingstring">Help</string>
+    <string name="helptextstring">Help text</string>
+    <string name="startbuttonstring"><![CDATA[->]]></string>
+    <string name="okbuttonstring">OK</string>
+</resources>

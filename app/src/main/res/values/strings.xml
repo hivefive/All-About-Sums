@@ -17,4 +17,6 @@
     <string name="helptextstring">Help text</string>
     <string name="startbuttonstring"><![CDATA[->]]></string>
     <string name="okbuttonstring">OK</string>
+    <string name="pointsheadingstring">Points</string>
+    <string name="pointstextstring">You have 0 points</string>
 </resources>

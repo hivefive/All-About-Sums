@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/numberOne"
         android:width="100dp"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
@@ -30,9 +30,9 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/numberTwo"
         android:width="100dp"
-        android:layout_alignTop="@+id/editText"
+        android:layout_alignTop="@+id/numberOne"
         android:layout_toRightOf="@+id/additionsign"
         android:layout_toEndOf="@+id/additionsign" />
 
@@ -43,8 +43,8 @@
         android:text="@string/additionsign"
         android:id="@+id/additionsign"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/editText"
-        android:layout_toEndOf="@+id/editText" />
+        android:layout_toRightOf="@+id/numberOne"
+        android:layout_toEndOf="@+id/numberOne" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -53,17 +53,17 @@
         android:text="@string/equalsign"
         android:id="@+id/equalsign"
         android:layout_alignTop="@+id/additionsign"
-        android:layout_toRightOf="@+id/editText2"
-        android:layout_toEndOf="@+id/editText2" />
+        android:layout_toRightOf="@+id/numberTwo"
+        android:layout_toEndOf="@+id/numberTwo" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText3"
+        android:id="@+id/sumNumber"
         android:width="100dp"
-        android:layout_alignTop="@+id/editText2"
+        android:layout_alignTop="@+id/numberTwo"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="10dp"
@@ -76,7 +76,17 @@
         android:id="@+id/okButton"
         android:layout_marginTop="84dp"
         android:width="250dp"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/numberOne"
+        android:layout_centerHorizontal="true"
+        android:onClick="matchSums"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/gameResult"
+        android:layout_below="@+id/gameheading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
 
 </RelativeLayout>
